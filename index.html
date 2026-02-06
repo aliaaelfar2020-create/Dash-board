@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dashboard</title>
+  <link rel="stylesheet" href="c:\Users\Maklad.store\Desktop\مشروع Dashboard\styles.css">
+</head>
+<body>
+
+  <div class="dashboard">
+
+   
+    <aside class="sidebar">
+      <div class="logo">Dashboard</div>
+      <ul class="menu">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+      <div class="logout"><a href="#">Logout</a></div>
+    </aside>
+
+    
+    <main class="main-content">
+
+      
+      <div class="topbar">
+        <div class="topbar-left">
+          <div class="notification">🔔<span class="badge">5</span></div>
+          <input type="text" class="search" placeholder="Search...">
+        </div>
+        <div class="topbar-right">
+          <div class="profile">
+            <img src="bf6ba66f3bb9912779e265af753ae8c5.webp" alt="profile">
+            <span>Aliaa</span>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="card-container">
+        <div class="card">
+          <h3>Order #1024</h3>
+          <p class="number">3200</p>
+          <p class="percent">+8%</p>
+              <p>Status: Pending</p>
+    <p>Customer: Hasnaa</p>
+
+        </div>
+        <div class="card">
+        <h3>Order #1025</h3>
+          <p class="number">1500</p>
+          <p class="percent">-12%</p>
+           <p>Status: Completed</p>
+    <p>Customer: Ali</p>
+        </div>
+        <div class="card">
+         <h3>Order #1026</h3>
+
+          <p class="number">$8.254</p>
+          <p class="percent">+15%</p>
+          <p>Status: In Progress</p>
+    <p>Customer: Sara</p>
+        </div>
+      </div>
+       <section class="orders">
+    <h3> Recent orders </h3>
+    <table>
+        <thead>
+            <tr>
+              <th>orders</th>
+                <th>Customer</th>
+                <th>data</th>
+                <th>Status</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#1001</td>
+                <td>Ahmed</td>
+                <td>2026-01-10</td>
+                <td><span class="status">paid</span></td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>#1003</td>
+                <td>Medhat</td>
+                <td>2026-01-11</td>
+                <td><span class="status">Pending</span></td>
+                 <td>$50</td>
+            </tr>
+            <tr>
+                <td>#1005</td>
+                <td>saher</td>
+                <td>2026-01-12</td>
+                <td><span class="status">cancelled</span></td>
+                <td>$150</td>
+            </tr>
+        </tbody>
+    </table>
+  </section>
+  <section class="notification-box">
+    <h3>notification</h3>
+    <ul>
+        <li>New Order Received</li>
+        <li>Payment Completed</li>
+        <li>New User Registered</li>
+    </ul>
+
+  </section>
+
+    </main>
+
+  </div>
+  
+</body>
+</html>
